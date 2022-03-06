@@ -1,5 +1,6 @@
 [![Build Status](https://app.travis-ci.com/EashanKaushik/swe1-app.svg?branch=main)](https://app.travis-ci.com/EashanKaushik/swe1-app)
-[![Coverage Status](https://coveralls.io/repos/github/EashanKaushik/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/EashanKaushik/swe1-app?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/EashanKaushik/swe1-app/badge.svg?branch=develop)](https://coveralls.io/github/EashanKaushik/swe1-app?branch=develop)
+
 # swe1-app
 
 ## Eashan Kaushik - Individual Assignemnt 
