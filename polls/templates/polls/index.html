@@ -8,6 +8,7 @@
 {% if latest_question_list %}
 <ul>
     <h1 style="color:red">Hi! Welcome to Eashan Kaushik's polling app</h1><br><br>
+    <h2>Choose the questions: </h2>
     {% for question in latest_question_list %}
     <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
     {% endfor %}
