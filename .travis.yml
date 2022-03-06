@@ -14,9 +14,9 @@ before_script:
   - python manage.py collectstatic --noinput
 
 script:
-  - black --check .
-  - flake8 --check .
-  - coverage run --source=polls manage.py test
+  - python -m black . --check
+  - python -m flake8 --max-line-length=92
+  - python -m coverage run --source='.' manage.py test
 
 after_script:
   - coveralls
